@@ -58,27 +58,43 @@
         </li>
         <li>
           <div class="raitings__block-top">
-            <span class="raitings__sum">4,7</span>
+            <span class="raitings__sum">4,8</span>
             <div class="raitings__stars">
-              <img src="img/new/4stars.png" width="80" height="16" alt="Рейтинг 4.7 из 5">
+              <img src="img/new/4stars.png" width="80" height="16" alt="Рейтинг 4.8 из 5">
             </div>
           </div>
-          <div class="raitings__text">Рейтинг в Яндекс.картах</div>
+          <div class="raitings__text">Рейтинг в 2ГИС</div>
         </li>
         <li>
           <div class="raitings__block-top">
-            <span class="raitings__sum">4,7</span>
+            <span class="raitings__sum">5</span>
             <div class="raitings__stars">
-              <img src="img/new/4stars.png" width="80" height="16" alt="Рейтинг 4.7 из 5">
+              <img src="img/new/5stars.png" width="80" height="16" alt="Рейтинг 4.8 из 5">
             </div>
           </div>
-          <span class="raitings__text js-hover-link">Рейтинг в Яндекс.картах</span>
+          <div class="raitings__text">Рейтинг в Google Maps</div>
         </li>
       </ul>
       <ul class="header-nav">
         <li><a href="#" class="js-hover-link">Коммерческое предложение</a></li>
         <li><a href="#" class="js-hover-link">Каталог</a></li>
         <li><a href="#" class="js-hover-link">Консультация</a></li>
+      </ul>
+      <ul class="header-social tablet">
+        <li><a href="mailto:zakaz@geongroup.ru">
+          <svg aria-hidden="true" class="progress" width="70" height="70" viewbox="0 0 70 70">
+            <path class="progress__circle" d="m35,2.5c17.955803,0 32.5,14.544199 32.5,32.5c0,17.955803 -14.544197,32.5 -32.5,32.5c-17.955803,0 -32.5,-14.544197 -32.5,-32.5c0,-17.955801 14.544197,-32.5 32.5,-32.5z"></path>
+            <path class="progress__path" d="m35,2.5c17.955803,0 32.5,14.544199 32.5,32.5c0,17.955803 -14.544197,32.5 -32.5,32.5c-17.955803,0 -32.5,-14.544197 -32.5,-32.5c0,-17.955801 14.544197,-32.5 32.5,-32.5z" pathlength="1"></path>
+          </svg>
+          <img src="wp-content/themes/geon-theme/img/svg/email.svg" alt="">
+        </a></li>
+        <li><a href="tel:88005002174">
+          <svg aria-hidden="true" class="progress" width="70" height="70" viewbox="0 0 70 70">
+            <path class="progress__circle" d="m35,2.5c17.955803,0 32.5,14.544199 32.5,32.5c0,17.955803 -14.544197,32.5 -32.5,32.5c-17.955803,0 -32.5,-14.544197 -32.5,-32.5c0,-17.955801 14.544197,-32.5 32.5,-32.5z"></path>
+            <path class="progress__path" d="m35,2.5c17.955803,0 32.5,14.544199 32.5,32.5c0,17.955803 -14.544197,32.5 -32.5,32.5c-17.955803,0 -32.5,-14.544197 -32.5,-32.5c0,-17.955801 14.544197,-32.5 32.5,-32.5z" pathlength="1"></path>
+          </svg>
+          <img src="wp-content/themes/geon-theme/img/svg/phone.svg" alt="">
+        </a></li>
       </ul>
       <div class="header-contact">
         <a href="tel:88005002174" class="header-contact__phone" data-hover="black">8 (800) 500 21 74</a>
@@ -115,6 +131,35 @@
                   <p>Пн — Пт 8:00 — 17:00</p>
                 </div>
               </div>
+              <ul class="header-social raitings">
+                <li>
+                  <div class="raitings__block-top">
+                    <span class="raitings__sum">4,7</span>
+                    <div class="raitings__stars">
+                      <img src="img/new/4stars.png" width="80" height="16" alt="Рейтинг 4.7 из 5">
+                    </div>
+                  </div>
+                  <div class="raitings__text">Рейтинг в Яндекс.картах</div>
+                </li>
+                <li>
+                  <div class="raitings__block-top">
+                    <span class="raitings__sum">4,8</span>
+                    <div class="raitings__stars">
+                      <img src="img/new/4stars.png" width="80" height="16" alt="Рейтинг 4.8 из 5">
+                    </div>
+                  </div>
+                  <div class="raitings__text">Рейтинг в 2ГИС</div>
+                </li>
+                <li>
+                  <div class="raitings__block-top">
+                    <span class="raitings__sum">5</span>
+                    <div class="raitings__stars">
+                      <img src="img/new/5stars.png" width="80" height="16" alt="Рейтинг 4.8 из 5">
+                    </div>
+                  </div>
+                  <div class="raitings__text">Рейтинг в Google Maps</div>
+                </li>
+              </ul>
               <div class="header-opened__content">
                 <ul class="header-opened__links">
                   <li><a href="news/index.htm" data-hover="">Новости</a></li>
@@ -220,8 +265,9 @@
         </div>
         <div class="col">
           <div class="title">
-            <h2 class="title-lg" data-animate-title="">Подстроимся под ваш <span>бюджет</span>, объясним, на чем можно
-              <span>сэкономить</span></h2>
+            <!-- <h2 class="title-lg" data-animate-title="">Подстроимся под ваш span>, на чем можно
+              <span>сэкономить</span></h2> -->
+              <h2 class="title-lg">Подстроимся под ваш <span>бюджет</span>, объясним, на чем можно сэкономить</h2>
           </div>
           <div class="s-flex-js">
             <div class="s-flex">
@@ -276,7 +322,7 @@
       </div>
     </section>
 
-    <section class="free">
+    <section class="free s-free">
       <div class="container">
         <div class="free-block">
           <div class="free-content">
@@ -517,7 +563,7 @@
       </div>
     </section>
 
-    <section class="free">
+    <section class="free s-free">
       <div class="container">
         <div class="free-block">
           <img src="img/new/free-mocap.png" class="free-book" alt="">
@@ -556,9 +602,8 @@
           </div>
           <div class="col">
             <div class="title">
-              <h2 class="title-lg" data-animate-title="">Адаптируемся под ваши <span>финансовые возможности</span></h2>
-              <div class="text-lg" data-aos="fade-up">Предлагаем выбор исполнения и подбираем насосное оборудование
-                любого бренда от известных европейских марок до качественных аналогов по оптимальной цене</div>
+              <h2 class="title-lg" data-animate-title=""><span>Независимость</span> от внешних поставщиков и <span>стабильность </span>поставок</h2>
+              <div class="text-lg" data-aos="fade-up">Собственные производственные мощности позволяют нам самим следить за качеством изготавливаемой продукции, формировать адекватные цены на модели и строго соблюдать сроки выполнения заказов </div>
             </div>
           </div>
           <div class="col-fluid">
@@ -568,7 +613,7 @@
                   <div class="services-item__img"><img src="img/new/finance-1.jpg" alt=""></div>
                   <div class="services-item__desc">
                     <div class="title">
-                      <h3 class="title-md"><span>Прямые контракты</span> с производителями насосного оборудования</h3>
+                      <h3 class="title-md">2-х этапный контроль качества </h3>
                     </div>
                     <div class="control-arrow services-item__arrow"></div>
                   </div>
@@ -577,7 +622,7 @@
                   <div class="services-item__img"><img src="img/new/finance-2.jpg" alt=""></div>
                   <div class="services-item__desc">
                     <div class="title">
-                      <h3 class="title-md">Команда технологов и инженеров <span>с реальным опытом</span></h3>
+                      <h3 class="title-md">Количество брака не превышает 1,3%</h3>
                     </div>
                     <div class="control-arrow services-item__arrow"></div>
                   </div>
@@ -586,7 +631,7 @@
                   <div class="services-item__img"><img src="img/new/finance-3.jpg" alt=""></div>
                   <div class="services-item__desc">
                     <div class="title">
-                      <h3 class="title-md"><span>Собственные площадки</span> с тестовыми установками</h3>
+                      <h3 class="title-md">Концепция бережливого производства</h3>
                     </div>
                     <div class="control-arrow services-item__arrow"></div>
                   </div>
