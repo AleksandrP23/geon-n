@@ -7084,7 +7084,7 @@ div.cursors div span.visible {
     top: -40px;
     left: 0;
     right: 0;
-    height: 160px;
+    height: 145px;
     background: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(255, 255, 255, 0)), color-stop(50%, #fff));
     background: -o-linear-gradient(bottom, rgba(255, 255, 255, 0) 0, #fff 50%);
     background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0, #fff 50%);
@@ -7307,7 +7307,7 @@ div.cursors div span.visible {
     }
     .company-work__content .title-counter::after {
         top: -20px;
-        height: 120px;
+        height: 90px;
     }
     .company-work__item {
         min-height: calc(100vh - 80px - 40px - 80px);
@@ -11872,7 +11872,10 @@ div.cursors div span.visible {
 
 @media (max-width: 425px) {
   .s-flex img {
-      height: 141px;
+      height: 130px;
+      position: absolute;
+      right: 0;
+      top: 0;
   }
 }
 
@@ -11931,6 +11934,7 @@ div.cursors div span.visible {
 @media (max-width: 1023px) {
   .s-flex-list-none {
     display: block;
+    width: 80%;
   }
 }
 
@@ -12211,7 +12215,11 @@ font-size: 80px;
   min-height: 330px;
   position: relative;
 }
-
+@media (max-width: 400px) {
+  .s-flex-js{
+    min-height: 510px;
+  }
+}
 .s-stat .company-about__stat {
   margin-top: 0;
 }
@@ -12553,4 +12561,8 @@ font-size: 80px;
   height: 500%;
   top: -60%;
   transform: translateX(-50%);
+}
+
+.s-unset .title-counter {
+  margin-bottom: 10px;
 }
