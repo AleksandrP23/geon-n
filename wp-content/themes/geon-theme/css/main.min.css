@@ -11651,9 +11651,9 @@ div.cursors div span.visible {
   display: none;
 }
 @media (max-width: 1740px) {
-  .s-header .header-burger {
+  /* .s-header .header-burger {
     display: flex;
-  }
+  } */
 
   .s-header .header-tender{
     margin-right: 0;
@@ -12246,9 +12246,16 @@ font-size: 80px;
 
 @media (max-width: 1023px) {
   .s-stat .company-about__stat li {
+    width: 42%;
+  }
+}
+
+@media (max-width: 650px) {
+  .s-stat .company-about__stat li {
     width: 100%;
   }
 }
+
 .s-company-sertificate {
   padding: 150px 0;
 }
