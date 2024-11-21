@@ -12217,6 +12217,12 @@ font-size: 80px;
 }
 @media (max-width: 610px) {
   .s-flex-js{
+    min-height: 470px;
+  }
+}
+
+@media (max-width: 420px) {
+  .s-flex-js{
     min-height: 510px;
   }
 }
