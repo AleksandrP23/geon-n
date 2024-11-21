@@ -12215,7 +12215,7 @@ font-size: 80px;
   min-height: 330px;
   position: relative;
 }
-@media (max-width: 400px) {
+@media (max-width: 610px) {
   .s-flex-js{
     min-height: 510px;
   }
